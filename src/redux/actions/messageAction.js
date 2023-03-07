@@ -1,11 +1,11 @@
-export const setMessasge = (payload) => {
+export const setMessage = (payload) => {
   return {
     type: "set",
     payload,
   };
 };
 
-export const clearMessasge = () => {
+export const clearMessage = () => {
   return {
     type: "clear",
   };
